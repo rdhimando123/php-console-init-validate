@@ -1,6 +1,4 @@
 {
   "name": "do/php-console-init-validate",
-  "require": {
-    "php": "^8.1"
-  }
+  "require": {}
 }
