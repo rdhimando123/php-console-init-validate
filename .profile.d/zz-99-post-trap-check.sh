@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "$(date -Is) 99-post-trap-check.sh sourced; invocations so far:" >> /tmp/console_profile_d.log
+echo "$(date -Is) zz-99-post-trap-check.sh sourced; invocations so far:" >> /tmp/console_profile_d.log
 if [[ -f /tmp/php_invocations.log ]]; then
   cat /tmp/php_invocations.log >> /tmp/console_profile_d.log
 else
